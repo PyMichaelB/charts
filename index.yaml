@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  rabbitmq-queue-management:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2022-10-01T21:35:57.625082365+01:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kubernetes
+    digest: 4a533c5cfb447b7c1088acb2df6ae0a7afa9e8db94b1ceec10f57894b1c1b831
+    name: rabbitmq-queue-management
+    urls:
+    - https://pymichaelb.github.io/charts/rabbitmq-queue-management-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-01T21:35:57.621724562+01:00"
