@@ -3,7 +3,22 @@ entries:
   rabbitmq-queue-management:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2022-10-02T16:53:35.626271499+01:00"
+    created: "2022-10-03T10:38:14.649597721+01:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kubernetes
+    digest: 7bd6fd618142cfe25d26013b5b8dc12aa2d2feaa49060a73ced47e95e2d57d1c
+    name: rabbitmq-queue-management
+    urls:
+    - https://pymichaelb.github.io/charts/rabbitmq-queue-management-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2022-10-03T10:38:14.636873007+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -18,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2022-10-02T16:53:35.623961726+01:00"
+    created: "2022-10-03T10:38:14.635141918+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -31,4 +46,4 @@ entries:
     urls:
     - https://pymichaelb.github.io/charts/rabbitmq-queue-management-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-02T16:53:35.622047839+01:00"
+generated: "2022-10-03T10:38:14.6331886+01:00"
