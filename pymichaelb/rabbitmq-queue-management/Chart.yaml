@@ -8,4 +8,4 @@ dependencies:
     version: 2.x.x
 description: A Helm chart for Kubernetes
 name: rabbitmq-queue-management
-version: 0.2.0
+version: 0.3.0

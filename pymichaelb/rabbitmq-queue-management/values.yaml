@@ -49,9 +49,6 @@ configuration: |
         enabled: true
       tomcat:
         use-relative-redirects: true
-      servlet:
-        # the path /mq/management/<x> is required here
-        context-path: /mq/management/api
   de:
     gessnerfl:
       rabbitmq:

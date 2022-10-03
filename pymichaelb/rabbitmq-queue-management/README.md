@@ -70,7 +70,7 @@ npx readme-generator --values values.yaml --readme README.md
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | `image.registry`    | rabbitmq-queue-management image registry                                                                                  | `pymichaelb`                |
 | `image.repository`  | rabbitmq-queue-management image repository                                                                                | `rabbitmq-queue-management` |
-| `image.tag`         | rabbitmq-queue-management image tag (immutable tags are recommended)                                                      | `1.1.1`                     |
+| `image.tag`         | rabbitmq-queue-management image tag (immutable tags are recommended)                                                      | `1.2.0`                     |
 | `image.digest`      | rabbitmq-queue-management image digest in the way sha256:aa.... Please note this parameter, if set, will override the tag | `""`                        |
 | `image.pullPolicy`  | rabbitmq-queue-management image pull policy                                                                               | `IfNotPresent`              |
 | `image.pullSecrets` | rabbitmq-queue-management image pull secrets                                                                              | `[]`                        |
